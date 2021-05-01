@@ -23,12 +23,13 @@ double fibonaccilinear(int n){
 int main(){
 	
 	int i;
-	
+	cout << "Exponential Implementation: \n";
 	for (i=1; i<15; i++){
 		cout << fibonacciexpo(i) << " ";
 	}
 	cout << "\n";
 	
+	cout << "\nLineal Implementation: \n";
 	for (i=1; i<15; i++){
 		cout << fibonaccilinear(i) << " ";
 	}
